@@ -34,7 +34,7 @@ public class Dog{
     public double getWeight(){
         return weight;
     }
-
+    //validate data
     public void setWeight(double w){
         if(w>0){
             weight = w;
